@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-n=$((RANDOM))
+n=$(( RANDOM % 100 ))
 
 if [[ n -eq 42 ]]; then 
 	echo "Something went wrong"
